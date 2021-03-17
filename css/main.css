@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*NAWIGACJA*/
+
+nav {
+    height: 50px;
+    background-color: #a4508b;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 0 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+
+nav li a:hover {
+    color: rgb(3, 23, 41);
+}
+
+/* HEADER */
+
+.header-img {
+    position: relative;
+    height: 260px;
+    background-image: url('/img/planet-1702788_1920.jpg');
+    background-position: 60% 22%;
+    background-repeat: no-repeat;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.header-bg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(17, 0, 48, 0.3);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px #000;
+}
