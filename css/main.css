@@ -4,8 +4,16 @@
     padding: 0;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
 }
 
 /*NAWIGACJA*/
@@ -27,6 +35,7 @@ nav li a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 1.6rem;
     letter-spacing: 2px;
     transition: color .3s;
 }
@@ -62,7 +71,71 @@ nav li a:hover {
 }
 
 header h1 {
+    font-size: 5rem;
     margin-bottom: 10px;
+}
+
+/* MAIN */
+main {
+    width: 60%;
+    margin: 50px auto;
+
+}
+
+.about-us-heading {
+    font-size: 3.2rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section {
+    margin: 40px 0;
+}
+
+.about-us-section {
+    position: relative;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.top {
+    background-image: url('../img/coffee-2242213_1920.jpg');
+}
+
+.middle {
+    background-image: url('../img/office-1209640_1920.jpg');
+}
+
+.bottom {
+    background-image: url('../img/building-1080592_1920.jpg');
+}
+
+.about-us-text {
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.about-us-text h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about-us-bg {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-bottom-right-radius: 50px;
 }
 
 /* FOOTER */
