@@ -40,7 +40,7 @@ nav li a:hover {
 .header-img {
     position: relative;
     height: 260px;
-    background-image: url('/img/planet-1702788_1920.jpg');
+    background-image: url('../img/planet-1702788_1920.jpg');
     background-position: 60% 22%;
     background-repeat: no-repeat;
 }
@@ -51,6 +51,8 @@ nav li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px #000;
 }
 
 .header-bg {
@@ -61,6 +63,30 @@ nav li a:hover {
 
 header h1 {
     margin-bottom: 10px;
-    text-transform: uppercase;
-    text-shadow: 3px 3px 5px #000;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    line-height: 100px;
+    color: rgba(211, 211, 211);
+    background-color: #a4508b;
+    text-align: center;
+    font-size: 18px;
+}
+
+.foot-ico {
+    margin-left: 50px;
+}
+
+.foot-ico i {
+    padding: 0 5px;
+    color: rgba(211, 211, 211);
+    font-size: 24px;
+    transition: color .3s;
+}
+
+.foot-ico i:hover {
+    color: rgb(3, 23, 41);
 }
