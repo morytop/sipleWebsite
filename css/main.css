@@ -76,6 +76,11 @@ header h1 {
 }
 
 /* MAIN */
+
+.services {
+    font-size: 1.6rem;
+}
+
 main {
     width: 60%;
     margin: 50px auto;

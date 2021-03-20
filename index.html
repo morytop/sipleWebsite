@@ -14,23 +14,10 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-img">
-            <div class="header-text">
-                <h1>Creative Design</h1>
-                <p>Pomożemy Ci stworzyć wymarzoną stronę internetową!</p>
-            </div>
-            <div class="header-bg"></div>
-        </div>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="">home</a></li>
-            <li><a href="">usługi</a></li>
-            <li><a href="">cennik</a></li>
-            <li><a href="">kontakt</a></li>
-        </ul>
-    </nav>
+
+    <div w3-include-html="header.html"></div>
+    <div w3-include-html="nav.html"></div>
+
     <main>
         <h2 class="about-us-heading">O nas</h2>
         <section class="about-us-section top">
@@ -64,11 +51,12 @@
         </section>
 
     </main>
-    <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores quibusdam totam porro quisquam
-            eligendi officia soluta<span class="foot-ico"> <a href=""><i class="fab fa-twitter-square"></i></a> <a href=""><i
-                class="fab fa-facebook-square"></i></a> <a href=""> <i class="fab fa-linkedin"></i></span></p> </a>
-    </footer>
+
+    <div w3-include-html="footer.html"></div>
+    <script src="js/script.js"></script>
+    <script>
+        includeHTML();
+    </script>
 </body>
 
 </html>
